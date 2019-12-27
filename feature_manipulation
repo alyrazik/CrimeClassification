@@ -1,0 +1,14 @@
+#INPUT: train.csv
+#Output: 
+"""
+1. Clean up wrong X and Y values (very few of them)
+2. visualize data.
+2. Parse input to get features: for e.g: get date, time, year, month, etc..)
+3. Select, and generate features.
+3. Remove outliers.
+4. do PCA
+
+Output: train dataframe with features and labels column
+        test dataframe with features and lables column
+        visuals to provide insights on data that help select, and tune the models.
+"""
