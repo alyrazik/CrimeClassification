@@ -1,0 +1,4 @@
+#input: two dataframes, one for training and one for testing; each of two columns, features and labels.
+outputs:
+1. formatting the dataset to remove outliers, handle dataset imbalance, normalize the features (according to model selection)
+2. test 
