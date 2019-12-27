@@ -1,4 +1,8 @@
 #input: two dataframes, one for training and one for testing; each of two columns, features and labels.
 outputs:
 1. formatting the dataset to remove outliers, handle dataset imbalance, normalize the features (according to model selection)
-2. test 
+2. Use the evaluation criterion as in Kaggle: using mulit-class logarithmic loss
+
+2. test 3 models and tune their hyper parameters (3 hyperparameters for each) to optimize the evaluation metric
+3. consider an ensemble of all models followed by a forth classifer. 
+4. feedback on required preprocessing and feature engineering. 
